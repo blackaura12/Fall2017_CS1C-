@@ -66,3 +66,51 @@ virtual functions, and at least two overloaded operators.
 6) Implement a user-friendly interface to demonstrate the modeler.
 
 **//CORE FEATURE REQUIREMENTS//**
+1) Provide a help operation to the user.(Operation Explanation)
+
+2) Sales pitch
+
+3) List of supported environments.
+
+4) Logistics/mainenance plan with pricing.
+
+5) Provide customer testimonials
+   - Guest users may enter new testimonials
+   - Must be persistent from session to session
+
+6) Provide Contact Info
+
+7) Display all graphic objects
+   - Shape id displayed above object
+   - Rendering area must be minimum
+     > 1000 pixels horizontal
+     > 500 pixels vertical
+   - Origin of coordinate plane is top left
+     > (0,0) top left of plane
+     > (1000,500) bottom right of plane
+
+8) Objects must be read in from persistent database file
+     > Can be a textfile
+     > Shapes must be identified by type(line, text, etc) and id.
+     
+9) Shapes can be updated by users with administrator permissions.
+     > via update shape form
+     > changes will be visible in rendering area
+     
+10) Shapes can be moved by users with administrator permissions.
+     > via move shape form
+     > changes will be visible in rendering area
+     
+11) Shapes can be added removed by user with administrator permissioins.
+     > via add/remove shape form
+     > changes will be visible in rendering area
+     
+12) Provide list of shapes sorted by id, with all properties visible in report.
+
+13) Provide list of shapes sorted by area, with type, id, and area in report.
+     > contains only shapes which have an area
+
+14) Provide list of shapes sorted by perimeter, with type, id, and perimeter in report.
+     > contains only shapes which have a perimeter
+     
+15) All changes saved from session to session.
